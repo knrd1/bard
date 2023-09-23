@@ -7,9 +7,11 @@ Bard IRC Bot uses the python package that returns response of Google Bard throug
 
 Visit https://bard.google.com/ and press F12 for console. Go to Session -> Application -> Cookies -> Copy the values of __Secure-1PSID 
 
-** IMPORTANT: If you also see a cookie called __Secure-1PSIDTS there, then you will also need to use it. If you do not see it, then do not use it. **
-** The point is that the __Secure-1PSIDTS cookie renews every half hour. This means that you will have to enter it again every half hour!  **
-** From my observation, if you create a completely new Google account, which you do not use on multiple devices, you will ONLY see the __Secure-1PSIDTS cookie, which is what we want to achieve. **
+**IMPORTANT: If you also see a cookie called __Secure-1PSIDTS there, then you will also need to use it. If you do not see it, then do not use it.**
+
+**The point is that the __Secure-1PSIDTS cookie renews every half hour. This means that you will have to enter it again every half hour!**
+
+**From my observation, if you create a completely new Google account, which you do not use on multiple devices, you will ONLY see the __Secure-1PSIDTS cookie, which is what we want to achieve.**
 
 -> Copy the values of __Secure-1PSID (and optionally __Secure-1PSIDTS)
 
